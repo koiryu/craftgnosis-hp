@@ -332,6 +332,13 @@
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
+      overflow: hidden;
+    }
+    .speaker-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
     }
     .avatar-initials {
       font-family: 'DM Serif Display', serif;
@@ -490,7 +497,7 @@
       そんな企業の技術者・担当者に向けた、実践的な半日セミナーです。
     </p>
     <div class="hero-meta">
-      <div class="meta-item"><span class="dot"></span>2026年6月12日（木）または18日（木）予定</div>
+      <div class="meta-item"><span class="dot"></span>2026年6月18日（木）13:45〜17:00</div>
       <div class="meta-item"><span class="dot"></span>東京都内（詳細は申込み後にご案内）</div>
       <div class="meta-item"><span class="dot"></span>参加費 70,000円（税別）／名</div>
     </div>
@@ -499,7 +506,7 @@
   <div class="hero-right">
     <div class="price-card">
       <div class="price-main">¥70,000<span>（税別）/名</span></div>
-      <div class="price-note">法人経費払い対応・適格請求書（インボイス）発行予定</div>
+      <div class="price-note">法人経費払い対応・インボイス（適格請求書）非対応</div>
       <div class="capacity-bar">
         <div class="capacity-label">
           <span>定員</span>
@@ -548,8 +555,8 @@
           <div class="stat-label">名限定の<br/>少人数制</div>
         </div>
         <div class="stat-item fade-up">
-          <div class="stat-num">埼玉<br/>大学</div>
-          <div class="stat-label">発ベンチャー<br/>主催</div>
+          <div class="stat-num">6/18</div>
+          <div class="stat-label">2026年6月18日<br/>（木）開催</div>
         </div>
         <div class="stat-item fade-up">
           <div class="stat-num">Q&A</div>
@@ -569,8 +576,8 @@
     <div class="program-timeline">
       <div class="session fade-up">
         <div class="session-time">
-          <div class="time-label">13:00</div>
-          <div class="time-sub">90分</div>
+          <div class="time-label">13:45</div>
+          <div class="time-sub">75分</div>
         </div>
         <div class="session-body">
           <p class="session-num">Session 01</p>
@@ -587,8 +594,8 @@
       </div>
       <div class="session fade-up">
         <div class="session-time">
-          <div class="time-label">14:45</div>
-          <div class="time-sub">90分</div>
+          <div class="time-label">15:15</div>
+          <div class="time-sub">75分</div>
         </div>
         <div class="session-body">
           <p class="session-num">Session 02</p>
@@ -606,7 +613,7 @@
       <div class="session fade-up">
         <div class="session-time">
           <div class="time-label">16:30</div>
-          <div class="time-sub">60分</div>
+          <div class="time-sub">30分</div>
         </div>
         <div class="session-body">
           <p class="session-num">Session 03</p>
@@ -632,19 +639,20 @@
     <h2 class="section-title">講師紹介</h2>
     <div class="speaker-grid fade-up">
       <div class="speaker-avatar">
-        <div class="avatar-initials">辻</div>
+        <img src="../assets/images/tsuji.jpg" alt="辻俊明 准教授" />
       </div>
       <div class="speaker-info">
         <h3 class="speaker-name">辻 俊明</h3>
-        <p class="speaker-title">埼玉大学大学院 理工学研究科 准教授 / 株式会社Craftgnosis 取締役</p>
+        <p class="speaker-title">埼玉大学 工学部 電気電子物理工学科 准教授 / 株式会社Craftgnosis 共同設立者・取締役</p>
         <p class="speaker-bio">
-          ロボティクスと機械学習の融合領域を専門とし、フィジカルAI基盤モデルの研究開発を牽引。NEDO等の国家プロジェクトにも参画し、産学連携による製造業向けAI実装の最前線に立つ。埼玉大学発ベンチャーとしてCraftgnosisを設立し、製造中小企業の技能不足解決に向けた実装展開を推進中。
+          慶應義塾大学大学院にてロボット制御の研究で博士号取得後、2012年より埼玉大学准教授。フィジカルAI・ロボット基盤モデルを専門とし、シミュレーション学習（Sim-to-Real）やエンドツーエンド制御の最前線で研究を牽引。ヒューマノイド向けムーンショット事業への参画など、産学連携プロジェクトにも精力的に取り組む。2026年4月、製造中小企業の技能不足解決を目指してCraftgnosisを共同設立。
         </p>
         <div class="speaker-credentials">
-          <div class="cred-item">埼玉大学大学院理工学研究科 准教授</div>
+          <div class="cred-item">慶應義塾大学大学院 理工学研究科 博士課程修了（2006年）</div>
+          <div class="cred-item">埼玉大学 工学部 電気電子物理工学科 准教授（2012年〜）</div>
+          <div class="cred-item">JST さきがけ 兼任研究員（2009年〜）</div>
           <div class="cred-item">ヒューマノイド向けムーンショット事業（採択）参画</div>
-          <div class="cred-item">NEDO GENIACプログラム 申請</div>
-          <div class="cred-item">株式会社Craftgnosis 共同設立者・取締役</div>
+          <div class="cred-item">株式会社Craftgnosis 共同設立者・取締役（2026年〜）</div>
         </div>
       </div>
     </div>
@@ -684,7 +692,7 @@
     <div class="overview-table">
       <div class="overview-row fade-up">
         <div class="overview-key">日時</div>
-        <div class="overview-val"><strong>2026年6月12日（木）または6月18日（木）</strong>　13:00〜17:30（予定）</div>
+        <div class="overview-val"><strong>2026年6月18日（木）</strong>　13:45〜17:00</div>
       </div>
       <div class="overview-row fade-up">
         <div class="overview-key">会場</div>
@@ -696,11 +704,11 @@
       </div>
       <div class="overview-row fade-up">
         <div class="overview-key">参加費</div>
-        <div class="overview-val"><strong>70,000円（税別）／名</strong>　※法人経費払い対応・適格請求書（インボイス）発行予定</div>
+        <div class="overview-val"><strong>70,000円（税別）／名</strong>　※法人経費払い対応・インボイス（適格請求書）非対応</div>
       </div>
       <div class="overview-row fade-up">
         <div class="overview-key">お支払い</div>
-        <div class="overview-val">申込み後に請求書を発行します。開催2週間前までにお振込みください。</div>
+        <div class="overview-val">申込み後に請求書を発行します。2026年6月末までにお振込みください。</div>
       </div>
       <div class="overview-row fade-up">
         <div class="overview-key">キャンセル</div>
